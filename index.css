@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;900&family=Roboto:ital,wght@0,100;0,500;1,400&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Lato", sans-serif;
+}
+h1,
+section {
+  width: 620px;
+  padding: 50px;
+  margin: 0 auto;
+  background-color: #2e354f;
+  color: white;
+  margin-top: 0;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+h1,
+h2,
+p {
+  margin-top: 0;
+}
+p {
+  font-weight: 400;
+}
+h1 {
+  font-weight: 900;
+  font-size: 36px;
+}
+h2 {
+  font-size: 24px;
+  color: #ef5839;
+  font-weight: 900;
+}
+.section-one {
+  background: white;
+  color: black;
+}
+.section-one p {
+  margin-top: 10px;
+}
+a {
+  color: #ef5839;
+}
+a:hover,
+a:focus {
+  color: rebeccapurple;
+}
+.contact,
+.read-more {
+  padding: 12px 25px;
+  font-weight: 900;
+  text-decoration: none;
+  display: inline-block;
+}
+.contact {
+  color: white;
+  background: #ef5839;
+  margin-right: 10px;
+}
+.read-more {
+  color: #2e354f;
+  background: white;
+  margin: 0;
+}
